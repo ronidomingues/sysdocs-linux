@@ -1,4 +1,8 @@
-# Instalar e Configurar o Samba para Compartilhamento de Arquivos
+<!--
+Ronivaldo Domingues de Andrade - sysdocs-linux documentation - Licensed under CC BY 4.0
+-->
+
+# Instalação e Configuração do Samba para Compartilhamento de Arquivos na Rede
 
 Esse modo do `samba` é usado para compartilhar pastas e arquivos entre Linux e outros dispositivos (Windows, Android, etc.) em uma rede local.
 
@@ -100,7 +104,7 @@ Esse modo do `samba` é usado para compartilhar pastas e arquivos entre Linux e 
 
 	**Após a configuração, salve o arquivo.**
 
-4. **Com relação ao usuário `seu_usuario` mencionado durante a configuração do `smb.conf`**:
+4. Com relação ao usuário `seu_usuario` mencionado durante a configuração do `smb.conf`:
 
    1. Ele deve existir como um usuário do seu Sistema Operacional.
       1. Caso você não queira compartilhar pelo mesmo usuário que usa no dia a dia do sistema, mas sim criar um novo usuario voltado somante para o compartilhamento de arquivos, crie um novo usuário com o nome que desejar usando o comando:
@@ -198,3 +202,6 @@ Esse modo do `samba` é usado para compartilhar pastas e arquivos entre Linux e 
 	```bash
 		\\ip_da_sua_maquina\nome_para_a_conexao
 	```
+8. Em breve passos para acessar em diferentes plataformas.
+
+> 📄 _Ronivaldo Domingues de Andrade - sysdocs-linux documentation - Licensed under CC BY 4.0_
